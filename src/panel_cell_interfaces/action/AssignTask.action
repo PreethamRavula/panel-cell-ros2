@@ -1,0 +1,12 @@
+# GOAL - This is what task amanger send to the robot
+panel_cell_interfaces/PanelTask task
+---
+# RESULT - output given by robot after dome with execution
+bool success
+string message
+---
+# FEEDBACK - what robot reports while executing
+string current_state
+float32 percent_complete
+
+
