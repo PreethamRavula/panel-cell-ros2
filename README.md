@@ -6,6 +6,7 @@
 - [x] Create a python package for launch files
 - [x] Create a package for task manager
 - [x] Create a package for robot controller
+- [x] Custom interfaces defined and built (PanelTask.msg, AssignTask.action)
 
 ## Design Decisions
 - In CMakeLists.txt I used rosidl_generate_interfaces() to auto-generate C++ types from
